@@ -3,7 +3,7 @@ import { useQuery } from '@tanstack/react-query'
 import axios from 'axios'
 import RecipeCard from '../components/RecipeCard'
 
-const API_KEY = '50095a2be67d475e88208a263754afb5'
+const API_KEY = ''
 
 function Home() {
   const [query, setQuery] = useState('')
