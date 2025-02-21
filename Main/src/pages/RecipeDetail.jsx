@@ -2,7 +2,7 @@ import { useParams } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
 import axios from 'axios'
 
-const API_KEY = '50095a2be67d475e88208a263754afb5'
+const API_KEY = ''
 
 function RecipeDetail() {
   const { id } = useParams()
